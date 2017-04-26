@@ -1,4 +1,3 @@
-
 public class ProjectManager extends Karyawan{
     private double bonusAp;
     
