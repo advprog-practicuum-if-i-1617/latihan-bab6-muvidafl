@@ -13,8 +13,9 @@ public class ProjectManager extends Karyawan{
             return this.bonusAp = 0;
         }
     }
+
+    @Override
     public double getTotal() {
-        this.total = this.gajiPokok + this.bonus + 6000000.0 + this.bonusAp + 450000.0;
-        return this.total;
+        return super.getTotal()+6000000.0+450000.0+this.bonusAp; //To change body of generated methods, choose Tools | Templates.
     }
 }
